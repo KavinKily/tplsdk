@@ -1,0 +1,6 @@
+framework module tplsdk {
+  umbrella header "tplsdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

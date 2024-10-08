@@ -1,0 +1,16 @@
+PODS:
+  - tplsdk (0.1.0)
+
+DEPENDENCIES:
+  - tplsdk (from `../`)
+
+EXTERNAL SOURCES:
+  tplsdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  tplsdk: 7e7b94865a846dc527f37cee374ae88c349409cf
+
+PODFILE CHECKSUM: 420d90e5589a54f68120eee3d38df352e83d0d64
+
+COCOAPODS: 1.15.2
