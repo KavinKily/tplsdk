@@ -7,71 +7,266 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29B1D081269566AAF8E2824A2A5EB0E5 /* TestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D6AD1BC292D12F5895442B7BCD8C1 /* TestSwift.swift */; };
+		012584690D5DC898BA798F875538C9E3 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DCB51961C3DD9FE223D5B00BE46343 /* DateTransform.swift */; };
+		02D25D4485EBD27D1B7AF8DA52CEF838 /* Filterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D561CC8A5D03497779F0B3846A4EF15F /* Filterable.swift */; };
+		02F36BFECC0574A8E1F617DAD0AE5E51 /* FeasyCallbackSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9F2F5A6AEACD161171B32F5526AE5C /* FeasyCallbackSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03A99B00B5744E01DD8B373042392497 /* libFEBluetoothSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B523ED2797D458AF04FDE79005AE9 /* libFEBluetoothSDK.a */; };
+		03C600AD8E98E9A806B9C06815DA59F8 /* KeyedContainerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374BF4D2A934C9FE0D5B06E403B448FF /* KeyedContainerModifier.swift */; };
+		043BDD301F90032D73D70783657CE1A8 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58134B34F73A3CC2FBB5934B042B9CB /* Log.swift */; };
+		0B00DCF124FDCDFBE210F7F024358B75 /* BuiltInBridgeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C83CAF8406FD719E92450EDEC72272F /* BuiltInBridgeType.swift */; };
+		0D73FCA30D16F39B2E059FDF95B4E39E /* Printable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D154D2CB76E9CE5F3022C724A79DC7B4 /* Printable.swift */; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A61AB3997732053A0AF2E2F832B3E9A /* CocoaAsyncSocket-dummy.m */; };
+		1B4CE7366513FC6842CF5034C79E335E /* RaLogCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC0BFFE4D71AA7A4F0F983CE530232C /* RaLogCompatible.swift */; };
+		1C77555290E1397011F77821FF61D31B /* FEWiFi.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0168381BD202474FDAEDEEEE3778D7 /* FEWiFi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FA930671B014615F314357279744D34 /* BlueToothTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3D549D369334D8EBBDC1DA664FF16 /* BlueToothTool.swift */; };
+		248C8C37F4457FD753D0EFD28B87CFFC /* CodableWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7279384DD4001B530335AAE944AE2E /* CodableWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		2D5B3280047572D08A326717E13376F0 /* KeyedContainerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B74E82B60CC4B7A30019009FC697E4 /* KeyedContainerMap.swift */; };
+		2F602FDD9A910050BC6097B61160044A /* CodecConstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF46D3D6093F97926F7E2194B2B5ACC3 /* CodecConstruct.swift */; };
+		2FABE5B525C807C996FA23523B2DF3D8 /* WIFIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1E2664B06CCDB73BF52E1304575D9 /* WIFIDevice.swift */; };
+		3076C25DD185794044664D3F0A4D56C0 /* BlueDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6940B783688F368ECDEC5ECCBAAD76 /* BlueDevice.swift */; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B020EA14A4F2D0D0DF869931463EC06 /* GCDAsyncUdpSocket.m */; };
+		3D9E3B80A8432020779A093FC78A61D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		41C364DEDEC01D9239D92CB806E781EC /* CodableWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F40536E61F8CAD884D16CE28573F5C4 /* CodableWrapper-dummy.m */; };
+		45315E9A275782F2B96A8981C8E3D7A5 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2962856FF8762FDD441020FCC0FEB5 /* TransformType.swift */; };
+		4A9BA55C8F422240B4A2B286C5DA34F3 /* AnyTransfromTypeTunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBA1F085A040716386343E43B0DE55 /* AnyTransfromTypeTunk.swift */; };
+		4C5E8105CABC8E8202A3883253DB96AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC641A3D7C4CE5EAC6263C65FAC592 /* GCDAsyncSocket.m */; };
+		572DE37465745CAC7FFE48496DABD803 /* tplsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB6AADCCFFA966E14186498D340B2C6 /* tplsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A85CE72166F88672C5F1F96CF44C87E /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4560058C78D99D61481B38C34986AD /* AnyCodingKey.swift */; };
+		65279D9FAE012CCB6D96A7B902D8C541 /* FSCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 62342BEA32893DC7A929B432ACE688CC /* FSCError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A915F9A1B9E315515DCD30D463AF83 /* Pods-tplsdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 927230779E04561EA8066DC37B94160F /* Pods-tplsdk_Tests-dummy.m */; };
-		7621A4791C2A43D5BAD28310E703E67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7C3543B6F49CBCD483CD3DBF51494F25 /* Pods-tplsdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C11BAA9512DEA4AF42B47353FBF258 /* Pods-tplsdk_Example-dummy.m */; };
-		9D8D2DFA21BB134DDDDEBA00C615726B /* tplsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0B1D3722D8D00464CED12604E08229 /* tplsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FA05D09A37611FC970CD10FE9979234F /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70AB2CB4530D0B8F236FAFF70070E34D /* CodecInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361210E8234078FC28EA6DE4875F8D0 /* CodecInit.swift */; };
+		723F13866CA9B1AA550A685D4338703D /* BlueToothConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C0CD56D998569CD311605BC0D81327 /* BlueToothConfig.swift */; };
+		7621A4791C2A43D5BAD28310E703E67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		7AA6CBF40D0F142803FC6C61ACC814AD /* CodecInitLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707661195B870FDB2A71D983D9B948F9 /* CodecInitLiteral.swift */; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4847E3E625CBF6C15988CF39325A09 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D8B940484D36A4568ADDE931CC803C9 /* tplsdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7DEF0831011F4384B9756FEF33FF85 /* tplsdk-dummy.m */; };
+		815D4A06B3DCCA014807E71F5EB4FE0C /* BlueToothKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D2D879AEF0A02CB3C1EC1E2071B18 /* BlueToothKit.swift */; };
+		85804B61A4B61D3E858CB17BDA805FA6 /* Pods-tplsdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B6D5443324E331833F39C7672EDEF9 /* Pods-tplsdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FB523482B2F7A671F6177FAFA5237D /* CodecOptionalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DECA4890CEAFE69E38AA2C80B1EB2 /* CodecOptionalProtocol.swift */; };
+		87BE71716A5F8180C3B06275E222B570 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6279EB9EA26441FD59082FFE8E3AF9FB /* AnyDecodable.swift */; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */; };
+		8B3A246AC0E21BE59FA7EC4A59D6A65A /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F33FF316181205DEDBB37B1B97180A5 /* Codec.swift */; };
+		8C575C2CDAAE359A50A7C58E45D26DED /* WebView+RaLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF303113C5441598C9A987A57F07B1 /* WebView+RaLog.swift */; };
+		959B3DBBA3E6292C27F42FA7EE37B902 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580EB0450B5644227C56C1CBF3CF2493 /* TransformOf.swift */; };
+		A3BC7619268D4A48B510563622A6AB7E /* KeyedContainerConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3547F80C8085AEEE9E08012D5A614AD /* KeyedContainerConvert.swift */; };
+		A4FA42ED09B05CD3248C747FBF7B96DB /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D17A456011411BCF7CC4677CD4E693 /* DeviceInfo.swift */; };
+		A6CE206FA23FA953772792BC1DC16540 /* CodeCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAC6CD7D2F6FEBCF1728D42F9EEC4D /* CodeCommand.swift */; };
+		A8A261B1A451C77FBF2E798486D5C811 /* LogModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698147A9F055084633AC17988267EC6D /* LogModelProtocol.swift */; };
+		A9D8CF8651F1F02B6141907E4A6D4377 /* TPPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732E3D7EE436F44225255E6F5AD00 /* TPPeripheral.swift */; };
+		A9FDB38DAC407680D28B6C55F10286B0 /* SnakeCamelConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D640BDE1C1F1C247D7A291838AEC160 /* SnakeCamelConvert.swift */; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 356CF6E29DA5EA6530383C80A25E2BAE /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CE54CA2D56011419BEABE45A4825F3 /* FBlueReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = D75B9B86F41F7F9A5415395D66BA97A0 /* FBlueReadMe.md */; };
+		B7B2B86913491D86A7229A59C4C9AF2C /* EncodeFinalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D46AD7727358548935CF3E619AFE29 /* EncodeFinalize.swift */; };
+		BA76D81906BB17551544714333F09F2A /* Built-in.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EFFDA7A77D8CCE85D5585305035AB6 /* Built-in.swift */; };
+		BB22DAA0FA28640570F459265A554877 /* DecodeFinalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D83109C5CBD5AF3D1FD1F0B2437FB /* DecodeFinalize.swift */; };
+		BBC001EA25AB4422C12BD659907866E8 /* FEComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 635B78185FE709D5AE330D7C576A4A5C /* FEComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1DE9D3EDD080F05B900B9087B27134B /* Pods-tplsdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47398C51754A062E3EE0028F2B0F2E94 /* Pods-tplsdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5A140A1A3AEE596B62EB75BCB7813FE /* Pods-tplsdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B6D5443324E331833F39C7672EDEF9 /* Pods-tplsdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEC99DAA1B37E48C3AF7F594C9ED9F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FA8678E6125C1C3916795A18C179BE8C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11899D04FE5E960421F4BE73E5641A60 /* ReplaceMe.swift */; };
-		FE1062B18D5AAD7072E76DA28EF55F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FF891D6DA4783AC40A80D8E0F94DDAEE /* tplsdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD046531079C28E20373949DC8FBD208 /* tplsdk-dummy.m */; };
+		C8645F22595694EC7741807455E366F6 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA165EA4302F4767A50DF177A8E65D /* SocketClient.swift */; };
+		C9425ECA600A041C343F13D91AC1FE0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		CA4777CAC5B361245418BEB63796AF0E /* FEBluetoothSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EB442B7CBAAA00BDEC7AAA95CA42BF36 /* FEBluetoothSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3A2F73F252A8488D59E29346C191F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		CD32C82E88544B369D11608E3C64D58F /* RaLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9115C58D11616F2473769CDB22CFE0F /* RaLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE19A2084188EC7C75AE362E37B9F394 /* RaLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB77656A79BA5A7B5EF104EFE356C34A /* RaLog-dummy.m */; };
+		CE604DACA3EDFE2ECF19207DAE7F15FF /* FEBluetoothSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC1FA1CF9BE4574491DEDFADA520957 /* FEBluetoothSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF914B00777C8F0E8047C5F390942079 /* Storable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C626B83E2461E1D3D5C06529C1D00 /* Storable.swift */; };
+		D06E53624FBBF73A0B973457340907F2 /* TPBlueToothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8347C7EB8D5BDA8CBA8DCB833EBC0C /* TPBlueToothModel.swift */; };
+		D902FB718532FEC42F4A82EF2F91E1EF /* FBlueSDKPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FCBDB964D5E7A85DCDA2A9F9112160F6 /* FBlueSDKPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D979C62A1D6D6D716C7E2FDB4347D3B9 /* InjectionKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437924A972CBD54364F0BAAC5A38DDC /* InjectionKeeper.swift */; };
+		DBA46EB9A619B63819F160CE6603EE7E /* Timer+JExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A9F7D2F11EA14B9298FAB77A861F5 /* Timer+JExtension.swift */; };
+		DECE4C7014B1F43CA7809550B8318814 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C926896C09A97EA908EE105A186F6C /* Wrapper.swift */; };
+		E3FF03CF91BE3F94ACA1B1571B63F31D /* FEOTA.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6A2468B885B7DE7C926BD51926C9CE /* FEOTA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54506AAF8E9B8A08978171511232344 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE74784B2609C31CB958424C29202086 /* CodableExtension.swift */; };
+		E73AF13ADE7ABB805DC6F2C1DA34024C /* Pods-tplsdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C11BAA9512DEA4AF42B47353FBF258 /* Pods-tplsdk_Example-dummy.m */; };
+		E82FEA9EC2152CDD48BF7C532E0D73E5 /* FEPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2DB02F6F17BC2E1410B3A3EBE6D5B7 /* FEPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F51B6CC8B81A49AFF13E46D8A74E1C0F /* FEDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0C66AE286A2C3B109CC982EDA61339 /* FEDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6FB88D51C840D2BCD663F79A8B48FC2 /* CodeCommandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0D6F16235D68620F20E183E6C48E9 /* CodeCommandStatus.swift */; };
+		FC5F7991BA591FBFA65081E91FC30791 /* ConstValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6449B8CE0AF920632CCB3762A5D9F /* ConstValue.swift */; };
+		FE6068FF3B9646B2FBB8007B7BA83663 /* CodablePrepartion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65971E61C747ED5AF1B1E538C81F48D1 /* CodablePrepartion.swift */; };
+		FEF1771A539AC89458854F3F3AB096D3 /* KeyedCodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D301E316757DC1BD9E7CD236CD7207 /* KeyedCodingContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A5C3013EFE6962606CCA1E14DD33FAD2 /* PBXContainerItemProxy */ = {
+		00CE07893086F5E0B62B19A3DBED8381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E3F40E541B2E9B1481E881BFD83BB2;
+			remoteInfo = RaLog;
+		};
+		44D38719244F124ADEFBB4B199CCED9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61439FF308AE1B69D184EA6AFE851D7;
+			remoteInfo = CodableWrapper;
+		};
+		48921A6283AB497AB4AEF12AFF2E3250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		ACC18909E93CB548CE0E5B78722B908F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E3F40E541B2E9B1481E881BFD83BB2;
+			remoteInfo = RaLog;
+		};
+		AE027B75D8731B1E4544674EB79CA0E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86B895DBEF0776E6A3C2CB9D6C8C64AF;
 			remoteInfo = tplsdk;
 		};
-		F1A3BAD53F4DAE512B11973FC671A074 /* PBXContainerItemProxy */ = {
+		B5D175F08E95E19D939DFFAC797FB25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61439FF308AE1B69D184EA6AFE851D7;
+			remoteInfo = CodableWrapper;
+		};
+		CF8F6FF77679AC9D7A43DC4BEEA6DE1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AD352FE2B8B8BD956292632788C5E443;
 			remoteInfo = "Pods-tplsdk_Example";
 		};
+		FD45D796A3F03D108F5A60FA956C846B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FA165EA4302F4767A50DF177A8E65D /* SocketClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketClient.swift; path = tplsdk/Classes/SocketClient.swift; sourceTree = "<group>"; };
 		0318CF0CCEE355B173F6D3F3502311BD /* Pods-tplsdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tplsdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		09DCB51961C3DD9FE223D5B00BE46343 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/CodableWrapper/Transforms/DateTransform.swift; sourceTree = "<group>"; };
 		0BB4ED657D60F7FD9671BF9ACA3A47E5 /* Pods-tplsdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tplsdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11899D04FE5E960421F4BE73E5641A60 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = tplsdk/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0C7DEF0831011F4384B9756FEF33FF85 /* tplsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tplsdk-dummy.m"; sourceTree = "<group>"; };
+		0DC6F3583BCC64593F25447993D0CCD5 /* RaLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RaLog.debug.xcconfig; sourceTree = "<group>"; };
+		1933BCEC3A7C6DCB118DDFBCD5A8D005 /* RaLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RaLog.modulemap; sourceTree = "<group>"; };
+		1AE89D2409321BFD2D4CD7819155B58B /* tplsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = tplsdk.modulemap; sourceTree = "<group>"; };
+		1BB6AADCCFFA966E14186498D340B2C6 /* tplsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tplsdk-umbrella.h"; sourceTree = "<group>"; };
+		1C83CAF8406FD719E92450EDEC72272F /* BuiltInBridgeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltInBridgeType.swift; path = Sources/CodableWrapper/CodecCore/Helper/BuiltInBridgeType.swift; sourceTree = "<group>"; };
+		23A67922CAACEE507D1562CBD3D55205 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		2437924A972CBD54364F0BAAC5A38DDC /* InjectionKeeper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InjectionKeeper.swift; path = Sources/CodableWrapper/CodecCore/Helper/InjectionKeeper.swift; sourceTree = "<group>"; };
+		2509A559E5EA57ED4AB6F84DA232111B /* RaLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaLog-prefix.pch"; sourceTree = "<group>"; };
+		28B8D8E8CC8371478A59F9DD7775857F /* CodableWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodableWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B6D5443324E331833F39C7672EDEF9 /* Pods-tplsdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tplsdk_Example-umbrella.h"; sourceTree = "<group>"; };
-		2E24A05834E46B26BFEA58BB5888C8E8 /* tplsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = tplsdk.modulemap; sourceTree = "<group>"; };
+		29DC641A3D7C4CE5EAC6263C65FAC592 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		2CB22CBFFB25AEDCE46B54699139422A /* tplsdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tplsdk.debug.xcconfig; sourceTree = "<group>"; };
+		2F4847E3E625CBF6C15988CF39325A09 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		351FE228A00BA071D45612A2A9F14D96 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		356CF6E29DA5EA6530383C80A25E2BAE /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		36F8720E03BAB0B7FDD12B19D61844B4 /* Pods-tplsdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tplsdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		374BF4D2A934C9FE0D5B06E403B448FF /* KeyedContainerModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedContainerModifier.swift; path = Sources/CodableWrapper/CodecCore/KeyedContainerConvert/KeyedContainerModifier.swift; sourceTree = "<group>"; };
 		38A5F9E63BE9401F11CDBFDA4F318E7F /* Pods-tplsdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tplsdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		3B42B4D8B319000A6DFA53C2F1983122 /* tplsdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tplsdk-prefix.pch"; sourceTree = "<group>"; };
+		3A61AB3997732053A0AF2E2F832B3E9A /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		3C3DECA4890CEAFE69E38AA2C80B1EB2 /* CodecOptionalProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodecOptionalProtocol.swift; path = Sources/CodableWrapper/CodecOptionalProtocol.swift; sourceTree = "<group>"; };
+		3CD6449B8CE0AF920632CCB3762A5D9F /* ConstValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstValue.swift; path = tplsdk/Classes/ConstValue.swift; sourceTree = "<group>"; };
 		3D5341E717392A7C1C2E89463196D63E /* Pods-tplsdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tplsdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EF0D6F16235D68620F20E183E6C48E9 /* CodeCommandStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeCommandStatus.swift; path = tplsdk/Classes/CodeCommandStatus.swift; sourceTree = "<group>"; };
 		3FB34500E5FD683A7F46C0E94DA277C6 /* Pods-tplsdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tplsdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		40929CF9BCB16510232A78D3F242340F /* Pods-tplsdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tplsdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		424C626B83E2461E1D3D5C06529C1D00 /* Storable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storable.swift; path = Sources/Storable.swift; sourceTree = "<group>"; };
+		44FB77D35F8CD215EB10D25C8D06397B /* RaLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RaLog-Info.plist"; sourceTree = "<group>"; };
+		461B80F6B411BF22FF17CAB9CB719E43 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
 		47398C51754A062E3EE0028F2B0F2E94 /* Pods-tplsdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tplsdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4A7279384DD4001B530335AAE944AE2E /* CodableWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CodableWrapper-umbrella.h"; sourceTree = "<group>"; };
 		4B212A0D964F81E0C9088BBBA7CC64E9 /* Pods-tplsdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tplsdk_Example.modulemap"; sourceTree = "<group>"; };
+		4BC73B5A2038CCDA4F9D5E0429A5DB43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4C4560058C78D99D61481B38C34986AD /* AnyCodingKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyCodingKey.swift; path = Sources/CodableWrapper/CodecCore/AnyCodingKey.swift; sourceTree = "<group>"; };
+		4E2B523ED2797D458AF04FDE79005AE9 /* libFEBluetoothSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libFEBluetoothSDK.a; sourceTree = "<group>"; };
+		570108FAB00BA1B1384841AFED845F64 /* tplsdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tplsdk-prefix.pch"; sourceTree = "<group>"; };
+		580EB0450B5644227C56C1CBF3CF2493 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/CodableWrapper/Transforms/TransformOf.swift; sourceTree = "<group>"; };
+		59D301E316757DC1BD9E7CD236CD7207 /* KeyedCodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedCodingContainer.swift; path = Sources/CodableWrapper/CodecCore/KeyedCodingContainer.swift; sourceTree = "<group>"; };
+		5A80EEA71BEB09E1E6EE0B354D76E8EA /* CodableWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CodableWrapper.modulemap; sourceTree = "<group>"; };
+		5CF3D549D369334D8EBBDC1DA664FF16 /* BlueToothTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueToothTool.swift; path = tplsdk/Classes/BlueToothTool.swift; sourceTree = "<group>"; };
+		5F9F2F5A6AEACD161171B32F5526AE5C /* FeasyCallbackSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeasyCallbackSDK.h; sourceTree = "<group>"; };
+		60E8910C777E3839620B5004B46BD6A0 /* CodableWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CodableWrapper.debug.xcconfig; sourceTree = "<group>"; };
+		60EAC6CD7D2F6FEBCF1728D42F9EEC4D /* CodeCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeCommand.swift; path = tplsdk/Classes/CodeCommand.swift; sourceTree = "<group>"; };
+		62342BEA32893DC7A929B432ACE688CC /* FSCError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSCError.h; sourceTree = "<group>"; };
+		6279EB9EA26441FD59082FFE8E3AF9FB /* AnyDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyDecodable.swift; path = Sources/CodableWrapper/CodecCore/AnyDecodable.swift; sourceTree = "<group>"; };
+		635B78185FE709D5AE330D7C576A4A5C /* FEComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEComponent.h; sourceTree = "<group>"; };
 		640999B65670690744ADC2260FF9754B /* Pods-tplsdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tplsdk_Example-Info.plist"; sourceTree = "<group>"; };
-		6522C1C96882F176708652376C796F1B /* Pods-tplsdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tplsdk_Example"; path = Pods_tplsdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D33FF231D740A78AA94F9912DBE4FC1 /* tplsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = tplsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77A181CE4B3789B8DAC97143AF62B19A /* Pods-tplsdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tplsdk_Tests"; path = Pods_tplsdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A832EA3A5439BEF7197734BA582F714 /* tplsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "tplsdk-Info.plist"; sourceTree = "<group>"; };
-		902C3EAC8869A731A4713BC6EEC2D2E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		64EF80F3AC7844B421E90847306FB859 /* CodableWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CodableWrapper-prefix.pch"; sourceTree = "<group>"; };
+		6522C1C96882F176708652376C796F1B /* Pods_tplsdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tplsdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65971E61C747ED5AF1B1E538C81F48D1 /* CodablePrepartion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodablePrepartion.swift; path = Sources/CodableWrapper/CodecCore/KeyedContainerConvert/CodablePrepartion.swift; sourceTree = "<group>"; };
+		698147A9F055084633AC17988267EC6D /* LogModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogModelProtocol.swift; path = Sources/LogModelProtocol.swift; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707661195B870FDB2A71D983D9B948F9 /* CodecInitLiteral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodecInitLiteral.swift; path = Sources/CodableWrapper/CodecInitLiteral.swift; sourceTree = "<group>"; };
+		76B1E2664B06CCDB73BF52E1304575D9 /* WIFIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WIFIDevice.swift; path = tplsdk/Classes/WIFIDevice.swift; sourceTree = "<group>"; };
+		77A181CE4B3789B8DAC97143AF62B19A /* Pods_tplsdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tplsdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D2D2D879AEF0A02CB3C1EC1E2071B18 /* BlueToothKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueToothKit.swift; path = tplsdk/Classes/BlueToothKit.swift; sourceTree = "<group>"; };
+		7F33FF316181205DEDBB37B1B97180A5 /* Codec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codec.swift; path = Sources/CodableWrapper/Codec.swift; sourceTree = "<group>"; };
+		7F40536E61F8CAD884D16CE28573F5C4 /* CodableWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CodableWrapper-dummy.m"; sourceTree = "<group>"; };
+		80C8E38EDE160D0E3DC5456A26C4B074 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84D46AD7727358548935CF3E619AFE29 /* EncodeFinalize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodeFinalize.swift; path = Sources/CodableWrapper/CodecCore/EncodeFinalize.swift; sourceTree = "<group>"; };
+		879507B50513A57932FF1178F7CEED97 /* tplsdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tplsdk.release.xcconfig; sourceTree = "<group>"; };
+		8A8347C7EB8D5BDA8CBA8DCB833EBC0C /* TPBlueToothModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TPBlueToothModel.swift; path = tplsdk/Classes/TPBlueToothModel.swift; sourceTree = "<group>"; };
+		8AE473FC634C83B9A08D7B213A38DBB7 /* CodableWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CodableWrapper.release.xcconfig; sourceTree = "<group>"; };
+		8B020EA14A4F2D0D0DF869931463EC06 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		8E6940B783688F368ECDEC5ECCBAAD76 /* BlueDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueDevice.swift; path = tplsdk/Classes/BlueDevice.swift; sourceTree = "<group>"; };
 		927230779E04561EA8066DC37B94160F /* Pods-tplsdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tplsdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		92D17A456011411BCF7CC4677CD4E693 /* DeviceInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInfo.swift; path = tplsdk/Classes/DeviceInfo.swift; sourceTree = "<group>"; };
 		9674CC42F74F0A76AE514332902B960E /* tplsdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = tplsdk; path = tplsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CBA1F085A040716386343E43B0DE55 /* AnyTransfromTypeTunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyTransfromTypeTunk.swift; path = Sources/CodableWrapper/CodecCore/AnyTransfromTypeTunk.swift; sourceTree = "<group>"; };
 		99C11BAA9512DEA4AF42B47353FBF258 /* Pods-tplsdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tplsdk_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D640BDE1C1F1C247D7A291838AEC160 /* SnakeCamelConvert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnakeCamelConvert.swift; path = Sources/CodableWrapper/CodecCore/Helper/SnakeCamelConvert.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5D83109C5CBD5AF3D1FD1F0B2437FB /* DecodeFinalize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodeFinalize.swift; path = Sources/CodableWrapper/CodecCore/DecodeFinalize.swift; sourceTree = "<group>"; };
+		9F7CECCD3133A6EDEF2003361A2F5C14 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		B50A9F7D2F11EA14B9298FAB77A861F5 /* Timer+JExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+JExtension.swift"; path = "tplsdk/Classes/Timer+JExtension.swift"; sourceTree = "<group>"; };
+		B5E8EA3D5EF1C774374E6C097F6B3092 /* CodableWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CodableWrapper-Info.plist"; sourceTree = "<group>"; };
+		B6C0CD56D998569CD311605BC0D81327 /* BlueToothConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueToothConfig.swift; path = tplsdk/Classes/BlueToothConfig.swift; sourceTree = "<group>"; };
+		BA0C66AE286A2C3B109CC982EDA61339 /* FEDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEDeviceInfo.h; sourceTree = "<group>"; };
 		BC383B9B3A48DF1F3FA8CE0864CA9604 /* Pods-tplsdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tplsdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA4D6AD1BC292D12F5895442B7BCD8C1 /* TestSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestSwift.swift; path = tplsdk/Classes/TestSwift.swift; sourceTree = "<group>"; };
+		BE74784B2609C31CB958424C29202086 /* CodableExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtension.swift; path = Sources/CodableWrapper/CodecCore/Helper/CodableExtension.swift; sourceTree = "<group>"; };
+		BF2732E3D7EE436F44225255E6F5AD00 /* TPPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TPPeripheral.swift; path = tplsdk/Classes/TPPeripheral.swift; sourceTree = "<group>"; };
+		C0EFFDA7A77D8CCE85D5585305035AB6 /* Built-in.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Built-in.swift"; path = "Sources/Built-in.swift"; sourceTree = "<group>"; };
+		C1B74E82B60CC4B7A30019009FC697E4 /* KeyedContainerMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedContainerMap.swift; path = Sources/CodableWrapper/CodecCore/KeyedContainerConvert/KeyedContainerMap.swift; sourceTree = "<group>"; };
+		C361210E8234078FC28EA6DE4875F8D0 /* CodecInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodecInit.swift; path = Sources/CodableWrapper/CodecInit.swift; sourceTree = "<group>"; };
+		C8C926896C09A97EA908EE105A186F6C /* Wrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wrapper.swift; path = Sources/Wrapper.swift; sourceTree = "<group>"; };
+		C9115C58D11616F2473769CDB22CFE0F /* RaLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaLog-umbrella.h"; sourceTree = "<group>"; };
 		CAAF0BD9322BCD7E7478F40488FD45E3 /* Pods-tplsdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tplsdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF07639236557366DA1A1AC163993AD1 /* tplsdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tplsdk.debug.xcconfig; sourceTree = "<group>"; };
-		DCB418C66A301736294B79321586DBBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DD046531079C28E20373949DC8FBD208 /* tplsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tplsdk-dummy.m"; sourceTree = "<group>"; };
+		CE6A2468B885B7DE7C926BD51926C9CE /* FEOTA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEOTA.h; sourceTree = "<group>"; };
+		D154D2CB76E9CE5F3022C724A79DC7B4 /* Printable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Printable.swift; path = Sources/Printable.swift; sourceTree = "<group>"; };
+		D3547F80C8085AEEE9E08012D5A614AD /* KeyedContainerConvert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedContainerConvert.swift; path = Sources/CodableWrapper/CodecCore/KeyedContainerConvert/KeyedContainerConvert.swift; sourceTree = "<group>"; };
+		D561CC8A5D03497779F0B3846A4EF15F /* Filterable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filterable.swift; path = Sources/Filterable.swift; sourceTree = "<group>"; };
+		D58134B34F73A3CC2FBB5934B042B9CB /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Sources/Log.swift; sourceTree = "<group>"; };
+		D75B9B86F41F7F9A5415395D66BA97A0 /* FBlueReadMe.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = FBlueReadMe.md; sourceTree = "<group>"; };
+		DAC0BFFE4D71AA7A4F0F983CE530232C /* RaLogCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaLogCompatible.swift; path = Sources/RaLogCompatible.swift; sourceTree = "<group>"; };
+		DAF3EA6104DA91C3A0BD9966C1A53D08 /* RaLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RaLog.release.xcconfig; sourceTree = "<group>"; };
+		DB0168381BD202474FDAEDEEEE3778D7 /* FEWiFi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEWiFi.h; sourceTree = "<group>"; };
+		DB77656A79BA5A7B5EF104EFE356C34A /* RaLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RaLog-dummy.m"; sourceTree = "<group>"; };
+		DC13D55980DD8F8A19946E0EC87550D6 /* RaLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RaLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2962856FF8762FDD441020FCC0FEB5 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/CodableWrapper/TransformType.swift; sourceTree = "<group>"; };
+		DFAF303113C5441598C9A987A57F07B1 /* WebView+RaLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WebView+RaLog.swift"; path = "Sources/WebView+RaLog.swift"; sourceTree = "<group>"; };
+		E57E8F95FA9E302BE801827057EED046 /* tplsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "tplsdk-Info.plist"; sourceTree = "<group>"; };
 		E61DEFBC38B5E35356E53E81AA95AFF8 /* Pods-tplsdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tplsdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E7B716ED875D4D4800A5C4CD73E08BA3 /* tplsdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tplsdk.release.xcconfig; sourceTree = "<group>"; };
-		FC0B1D3722D8D00464CED12604E08229 /* tplsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tplsdk-umbrella.h"; sourceTree = "<group>"; };
+		E70E3B54ED2566EAD981CB5593E1E165 /* tplsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = tplsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB442B7CBAAA00BDEC7AAA95CA42BF36 /* FEBluetoothSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEBluetoothSetting.h; sourceTree = "<group>"; };
+		FA05D09A37611FC970CD10FE9979234F /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		FAC1FA1CF9BE4574491DEDFADA520957 /* FEBluetoothSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEBluetoothSDK.h; sourceTree = "<group>"; };
+		FB2DB02F6F17BC2E1410B3A3EBE6D5B7 /* FEPeripheral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEPeripheral.h; sourceTree = "<group>"; };
 		FC126FEA09C5FA15BAE92FC430A65498 /* Pods-tplsdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tplsdk_Tests.modulemap"; sourceTree = "<group>"; };
+		FCBDB964D5E7A85DCDA2A9F9112160F6 /* FBlueSDKPublicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBlueSDKPublicHeader.h; sourceTree = "<group>"; };
+		FCFDFAE70B57EDE13115EDD3CE0F5CB9 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		FF46D3D6093F97926F7E2194B2B5ACC3 /* CodecConstruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodecConstruct.swift; path = Sources/CodableWrapper/CodecCore/CodecConstruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,70 +278,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5419155AD11441759BE54C8EED789DE8 /* Frameworks */ = {
+		48B3B29EF341CF6F17564B87D4DFF90C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC99DAA1B37E48C3AF7F594C9ED9F34 /* Foundation.framework in Frameworks */,
+				C9425ECA600A041C343F13D91AC1FE0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92F8CA7EEF3B91C75C211F2C9BFAAD39 /* Frameworks */ = {
+		BBC6432E2BF0841D20A2A216C6077536 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1062B18D5AAD7072E76DA28EF55F9B /* Foundation.framework in Frameworks */,
+				4C5E8105CABC8E8202A3883253DB96AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA326D479650C236A0D7A6357CBAFB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3A2F73F252A8488D59E29346C191F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB71A33105D4239854444C7225A95E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9E3B80A8432020779A093FC78A61D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FB1353EE2FA81523ADA0FCCDEC579F1 /* Products */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6522C1C96882F176708652376C796F1B /* Pods-tplsdk_Example */,
-				77A181CE4B3789B8DAC97143AF62B19A /* Pods-tplsdk_Tests */,
+				D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D144C3F463A6567C090DB5D047F2E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
+				28B8D8E8CC8371478A59F9DD7775857F /* CodableWrapper.framework */,
+				6522C1C96882F176708652376C796F1B /* Pods_tplsdk_Example.framework */,
+				77A181CE4B3789B8DAC97143AF62B19A /* Pods_tplsdk_Tests.framework */,
+				DC13D55980DD8F8A19946E0EC87550D6 /* RaLog.framework */,
 				9674CC42F74F0A76AE514332902B960E /* tplsdk */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A48C6D46A100FF57D941908E8C0192F /* Support Files */ = {
+		11A7A7CD16347773DA5C2D28C868154D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2E24A05834E46B26BFEA58BB5888C8E8 /* tplsdk.modulemap */,
-				DD046531079C28E20373949DC8FBD208 /* tplsdk-dummy.m */,
-				8A832EA3A5439BEF7197734BA582F714 /* tplsdk-Info.plist */,
-				3B42B4D8B319000A6DFA53C2F1983122 /* tplsdk-prefix.pch */,
-				FC0B1D3722D8D00464CED12604E08229 /* tplsdk-umbrella.h */,
-				CF07639236557366DA1A1AC163993AD1 /* tplsdk.debug.xcconfig */,
-				E7B716ED875D4D4800A5C4CD73E08BA3 /* tplsdk.release.xcconfig */,
+				1AE89D2409321BFD2D4CD7819155B58B /* tplsdk.modulemap */,
+				0C7DEF0831011F4384B9756FEF33FF85 /* tplsdk-dummy.m */,
+				E57E8F95FA9E302BE801827057EED046 /* tplsdk-Info.plist */,
+				570108FAB00BA1B1384841AFED845F64 /* tplsdk-prefix.pch */,
+				1BB6AADCCFFA966E14186498D340B2C6 /* tplsdk-umbrella.h */,
+				2CB22CBFFB25AEDCE46B54699139422A /* tplsdk.debug.xcconfig */,
+				879507B50513A57932FF1178F7CEED97 /* tplsdk.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/tplsdk";
 			sourceTree = "<group>";
 		};
-		32DAE8D413D6C543F9A96D14144A8C6C /* Pod */ = {
+		23B636FE7BB983C2E87BD4581039EF6E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				902C3EAC8869A731A4713BC6EEC2D2E4 /* LICENSE */,
-				DCB418C66A301736294B79321586DBBF /* README.md */,
-				6D33FF231D740A78AA94F9912DBE4FC1 /* tplsdk.podspec */,
+				5A80EEA71BEB09E1E6EE0B354D76E8EA /* CodableWrapper.modulemap */,
+				7F40536E61F8CAD884D16CE28573F5C4 /* CodableWrapper-dummy.m */,
+				B5E8EA3D5EF1C774374E6C097F6B3092 /* CodableWrapper-Info.plist */,
+				64EF80F3AC7844B421E90847306FB859 /* CodableWrapper-prefix.pch */,
+				4A7279384DD4001B530335AAE944AE2E /* CodableWrapper-umbrella.h */,
+				60E8910C777E3839620B5004B46BD6A0 /* CodableWrapper.debug.xcconfig */,
+				8AE473FC634C83B9A08D7B213A38DBB7 /* CodableWrapper.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		34D4FFEAFDB7594371644569443DE05C /* tplsdk */ = {
-			isa = PBXGroup;
-			children = (
-				11899D04FE5E960421F4BE73E5641A60 /* ReplaceMe.swift */,
-				CA4D6AD1BC292D12F5895442B7BCD8C1 /* TestSwift.swift */,
-				32DAE8D413D6C543F9A96D14144A8C6C /* Pod */,
-				2A48C6D46A100FF57D941908E8C0192F /* Support Files */,
-			);
-			name = tplsdk;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/CodableWrapper";
 			sourceTree = "<group>";
 		};
 		4101F3E0A353AC46193565569A4CCCA7 /* Pods-tplsdk_Tests */ = {
@@ -165,12 +390,46 @@
 			path = "Target Support Files/Pods-tplsdk_Tests";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		57B90A5CD9631C73A89D661046EDD76A /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				FA05D09A37611FC970CD10FE9979234F /* GCDAsyncSocket.h */,
+				29DC641A3D7C4CE5EAC6263C65FAC592 /* GCDAsyncSocket.m */,
+				356CF6E29DA5EA6530383C80A25E2BAE /* GCDAsyncUdpSocket.h */,
+				8B020EA14A4F2D0D0DF869931463EC06 /* GCDAsyncUdpSocket.m */,
+				CCC4B9433536520370F0A8AF4CD437F2 /* Support Files */,
 			);
-			name = iOS;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		66FAF7FB8FEAD404E486B907FB2B4FD8 /* CodableWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				4C4560058C78D99D61481B38C34986AD /* AnyCodingKey.swift */,
+				6279EB9EA26441FD59082FFE8E3AF9FB /* AnyDecodable.swift */,
+				96CBA1F085A040716386343E43B0DE55 /* AnyTransfromTypeTunk.swift */,
+				1C83CAF8406FD719E92450EDEC72272F /* BuiltInBridgeType.swift */,
+				BE74784B2609C31CB958424C29202086 /* CodableExtension.swift */,
+				65971E61C747ED5AF1B1E538C81F48D1 /* CodablePrepartion.swift */,
+				7F33FF316181205DEDBB37B1B97180A5 /* Codec.swift */,
+				FF46D3D6093F97926F7E2194B2B5ACC3 /* CodecConstruct.swift */,
+				C361210E8234078FC28EA6DE4875F8D0 /* CodecInit.swift */,
+				707661195B870FDB2A71D983D9B948F9 /* CodecInitLiteral.swift */,
+				3C3DECA4890CEAFE69E38AA2C80B1EB2 /* CodecOptionalProtocol.swift */,
+				09DCB51961C3DD9FE223D5B00BE46343 /* DateTransform.swift */,
+				9E5D83109C5CBD5AF3D1FD1F0B2437FB /* DecodeFinalize.swift */,
+				84D46AD7727358548935CF3E619AFE29 /* EncodeFinalize.swift */,
+				2437924A972CBD54364F0BAAC5A38DDC /* InjectionKeeper.swift */,
+				59D301E316757DC1BD9E7CD236CD7207 /* KeyedCodingContainer.swift */,
+				D3547F80C8085AEEE9E08012D5A614AD /* KeyedContainerConvert.swift */,
+				C1B74E82B60CC4B7A30019009FC697E4 /* KeyedContainerMap.swift */,
+				374BF4D2A934C9FE0D5B06E403B448FF /* KeyedContainerModifier.swift */,
+				9D640BDE1C1F1C247D7A291838AEC160 /* SnakeCamelConvert.swift */,
+				580EB0450B5644227C56C1CBF3CF2493 /* TransformOf.swift */,
+				DD2962856FF8762FDD441020FCC0FEB5 /* TransformType.swift */,
+				23B636FE7BB983C2E87BD4581039EF6E /* Support Files */,
+			);
+			path = CodableWrapper;
 			sourceTree = "<group>";
 		};
 		69D6AB51562D1735611BF0AFA6DC2C3F /* Pods-tplsdk_Example */ = {
@@ -190,6 +449,43 @@
 			path = "Target Support Files/Pods-tplsdk_Example";
 			sourceTree = "<group>";
 		};
+		70E4AFF2AB82A84F94DB609D1089C2A5 /* RaLog */ = {
+			isa = PBXGroup;
+			children = (
+				C0EFFDA7A77D8CCE85D5585305035AB6 /* Built-in.swift */,
+				D561CC8A5D03497779F0B3846A4EF15F /* Filterable.swift */,
+				D58134B34F73A3CC2FBB5934B042B9CB /* Log.swift */,
+				698147A9F055084633AC17988267EC6D /* LogModelProtocol.swift */,
+				D154D2CB76E9CE5F3022C724A79DC7B4 /* Printable.swift */,
+				DAC0BFFE4D71AA7A4F0F983CE530232C /* RaLogCompatible.swift */,
+				424C626B83E2461E1D3D5C06529C1D00 /* Storable.swift */,
+				DFAF303113C5441598C9A987A57F07B1 /* WebView+RaLog.swift */,
+				C8C926896C09A97EA908EE105A186F6C /* Wrapper.swift */,
+				C1FE7147E86EC822A02C2CE40192124A /* Support Files */,
+			);
+			path = RaLog;
+			sourceTree = "<group>";
+		};
+		7C6AB9873980392A09FB54517C03870D /* FYT */ = {
+			isa = PBXGroup;
+			children = (
+				D75B9B86F41F7F9A5415395D66BA97A0 /* FBlueReadMe.md */,
+				FCBDB964D5E7A85DCDA2A9F9112160F6 /* FBlueSDKPublicHeader.h */,
+				5F9F2F5A6AEACD161171B32F5526AE5C /* FeasyCallbackSDK.h */,
+				FAC1FA1CF9BE4574491DEDFADA520957 /* FEBluetoothSDK.h */,
+				EB442B7CBAAA00BDEC7AAA95CA42BF36 /* FEBluetoothSetting.h */,
+				635B78185FE709D5AE330D7C576A4A5C /* FEComponent.h */,
+				BA0C66AE286A2C3B109CC982EDA61339 /* FEDeviceInfo.h */,
+				CE6A2468B885B7DE7C926BD51926C9CE /* FEOTA.h */,
+				FB2DB02F6F17BC2E1410B3A3EBE6D5B7 /* FEPeripheral.h */,
+				DB0168381BD202474FDAEDEEEE3778D7 /* FEWiFi.h */,
+				62342BEA32893DC7A929B432ACE688CC /* FSCError.h */,
+				4E2B523ED2797D458AF04FDE79005AE9 /* libFEBluetoothSDK.a */,
+			);
+			name = FYT;
+			path = tplsdk/Classes/FYT;
+			sourceTree = "<group>";
+		};
 		95ABBE9751D3E5D2A7D515435130A234 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,41 +495,136 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		95F7CDED104A958EB0D770CAA5E5AFCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57B90A5CD9631C73A89D661046EDD76A /* CocoaAsyncSocket */,
+				66FAF7FB8FEAD404E486B907FB2B4FD8 /* CodableWrapper */,
+				70E4AFF2AB82A84F94DB609D1089C2A5 /* RaLog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F4FC9EAC668F4542C25C59EBE1C4C41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4BC73B5A2038CCDA4F9D5E0429A5DB43 /* LICENSE */,
+				80C8E38EDE160D0E3DC5456A26C4B074 /* README.md */,
+				E70E3B54ED2566EAD981CB5593E1E165 /* tplsdk.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C1FE7147E86EC822A02C2CE40192124A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1933BCEC3A7C6DCB118DDFBCD5A8D005 /* RaLog.modulemap */,
+				DB77656A79BA5A7B5EF104EFE356C34A /* RaLog-dummy.m */,
+				44FB77D35F8CD215EB10D25C8D06397B /* RaLog-Info.plist */,
+				2509A559E5EA57ED4AB6F84DA232111B /* RaLog-prefix.pch */,
+				C9115C58D11616F2473769CDB22CFE0F /* RaLog-umbrella.h */,
+				0DC6F3583BCC64593F25447993D0CCD5 /* RaLog.debug.xcconfig */,
+				DAF3EA6104DA91C3A0BD9966C1A53D08 /* RaLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RaLog";
+			sourceTree = "<group>";
+		};
+		C2B1003D7B0F906EF33E91969286FC96 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6DF67980939AEB2A3054779F244AF89 /* tplsdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCC4B9433536520370F0A8AF4CD437F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F7CECCD3133A6EDEF2003361A2F5C14 /* CocoaAsyncSocket.modulemap */,
+				3A61AB3997732053A0AF2E2F832B3E9A /* CocoaAsyncSocket-dummy.m */,
+				23A67922CAACEE507D1562CBD3D55205 /* CocoaAsyncSocket-Info.plist */,
+				FCFDFAE70B57EDE13115EDD3CE0F5CB9 /* CocoaAsyncSocket-prefix.pch */,
+				2F4847E3E625CBF6C15988CF39325A09 /* CocoaAsyncSocket-umbrella.h */,
+				351FE228A00BA071D45612A2A9F14D96 /* CocoaAsyncSocket.debug.xcconfig */,
+				461B80F6B411BF22FF17CAB9CB719E43 /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EABB865352BAB1E233E3A5A1A3EDA200 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1FB1353EE2FA81523ADA0FCCDEC579F1 /* Products */,
+				C2B1003D7B0F906EF33E91969286FC96 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				95F7CDED104A958EB0D770CAA5E5AFCE /* Pods */,
+				0D144C3F463A6567C090DB5D047F2E06 /* Products */,
 				95ABBE9751D3E5D2A7D515435130A234 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */,
+				7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */,
+				7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		EABB865352BAB1E233E3A5A1A3EDA200 /* Development Pods */ = {
+		E6DF67980939AEB2A3054779F244AF89 /* tplsdk */ = {
 			isa = PBXGroup;
 			children = (
-				34D4FFEAFDB7594371644569443DE05C /* tplsdk */,
+				8E6940B783688F368ECDEC5ECCBAAD76 /* BlueDevice.swift */,
+				B6C0CD56D998569CD311605BC0D81327 /* BlueToothConfig.swift */,
+				7D2D2D879AEF0A02CB3C1EC1E2071B18 /* BlueToothKit.swift */,
+				5CF3D549D369334D8EBBDC1DA664FF16 /* BlueToothTool.swift */,
+				60EAC6CD7D2F6FEBCF1728D42F9EEC4D /* CodeCommand.swift */,
+				3EF0D6F16235D68620F20E183E6C48E9 /* CodeCommandStatus.swift */,
+				3CD6449B8CE0AF920632CCB3762A5D9F /* ConstValue.swift */,
+				92D17A456011411BCF7CC4677CD4E693 /* DeviceInfo.swift */,
+				00FA165EA4302F4767A50DF177A8E65D /* SocketClient.swift */,
+				B50A9F7D2F11EA14B9298FAB77A861F5 /* Timer+JExtension.swift */,
+				8A8347C7EB8D5BDA8CBA8DCB833EBC0C /* TPBlueToothModel.swift */,
+				BF2732E3D7EE436F44225255E6F5AD00 /* TPPeripheral.swift */,
+				76B1E2664B06CCDB73BF52E1304575D9 /* WIFIDevice.swift */,
+				F869C2577B2087E1A54BB73C3204C4CA /* Frameworks */,
+				7C6AB9873980392A09FB54517C03870D /* FYT */,
+				9F4FC9EAC668F4542C25C59EBE1C4C41 /* Pod */,
+				11A7A7CD16347773DA5C2D28C868154D /* Support Files */,
 			);
-			name = "Development Pods";
+			name = tplsdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F869C2577B2087E1A54BB73C3204C4CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04DC4D5DE8D6571625B18D5FD501AA93 /* Headers */ = {
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A140A1A3AEE596B62EB75BCB7813FE /* Pods-tplsdk_Example-umbrella.h in Headers */,
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C2960D33EF1CF63AE2439EC8A25FC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32C82E88544B369D11608E3C64D58F /* RaLog-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,29 +636,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86FE3C61E5BD48D9B8ACBF81626CD0B8 /* Headers */ = {
+		D001D030958E88187F25B03F704B1553 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8D2DFA21BB134DDDDEBA00C615726B /* tplsdk-umbrella.h in Headers */,
+				248C8C37F4457FD753D0EFD28B87CFFC /* CodableWrapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79C31FF498EC849BFD559A4E85DAC73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D902FB718532FEC42F4A82EF2F91E1EF /* FBlueSDKPublicHeader.h in Headers */,
+				02F36BFECC0574A8E1F617DAD0AE5E51 /* FeasyCallbackSDK.h in Headers */,
+				CE604DACA3EDFE2ECF19207DAE7F15FF /* FEBluetoothSDK.h in Headers */,
+				CA4777CAC5B361245418BEB63796AF0E /* FEBluetoothSetting.h in Headers */,
+				BBC001EA25AB4422C12BD659907866E8 /* FEComponent.h in Headers */,
+				F51B6CC8B81A49AFF13E46D8A74E1C0F /* FEDeviceInfo.h in Headers */,
+				E3FF03CF91BE3F94ACA1B1571B63F31D /* FEOTA.h in Headers */,
+				E82FEA9EC2152CDD48BF7C532E0D73E5 /* FEPeripheral.h in Headers */,
+				1C77555290E1397011F77821FF61D31B /* FEWiFi.h in Headers */,
+				65279D9FAE012CCB6D96A7B902D8C541 /* FSCError.h in Headers */,
+				572DE37465745CAC7FFE48496DABD803 /* tplsdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D5141689B95B4DF69A20370C2A86F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85804B61A4B61D3E858CB17BDA805FA6 /* Pods-tplsdk_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		86B895DBEF0776E6A3C2CB9D6C8C64AF /* tplsdk */ = {
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56ABE204B188B9778B9F7EBA9ADA6ECB /* Build configuration list for PBXNativeTarget "tplsdk" */;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
 			buildPhases = (
-				86FE3C61E5BD48D9B8ACBF81626CD0B8 /* Headers */,
-				4F0541DD67AD0DFC838453544A455729 /* Sources */,
-				5419155AD11441759BE54C8EED789DE8 /* Frameworks */,
-				BF6BD0F3678F5B0A7597D58D9E7BC967 /* Resources */,
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				B9BA2F3E20981E6576E8626EADB9300B /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82E3F40E541B2E9B1481E881BFD83BB2 /* RaLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD7673BFCB5C182A507672BDD386F9C /* Build configuration list for PBXNativeTarget "RaLog" */;
+			buildPhases = (
+				50C2960D33EF1CF63AE2439EC8A25FC8 /* Headers */,
+				5C7D71864CBC02A243057F5269082246 /* Sources */,
+				BBC6432E2BF0841D20A2A216C6077536 /* Frameworks */,
+				BC55A387FE550E12A03D8A15CDDA7B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaLog;
+			productName = RaLog;
+			productReference = DC13D55980DD8F8A19946E0EC87550D6 /* RaLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86B895DBEF0776E6A3C2CB9D6C8C64AF /* tplsdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1813563E7F3887955A74D8B87462E2 /* Build configuration list for PBXNativeTarget "tplsdk" */;
+			buildPhases = (
+				E79C31FF498EC849BFD559A4E85DAC73 /* Headers */,
+				9B3708DF8B8AA7B2054D8FBA5CF38F29 /* Sources */,
+				48B3B29EF341CF6F17564B87D4DFF90C /* Frameworks */,
+				EEB0CE87B1AF5F0F5649A5EDAE16CEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BAC85444D8E4EAB6E8658CDEFD589A3 /* PBXTargetDependency */,
+				8F2C2BF65C7FFE8922837CC74C9E4F70 /* PBXTargetDependency */,
+				B85824C1B89E8AB533C9CE52437F4E4E /* PBXTargetDependency */,
 			);
 			name = tplsdk;
 			productName = tplsdk;
@@ -286,30 +742,51 @@
 			buildRules = (
 			);
 			dependencies = (
-				99DEB06F573416F97DC2893AE701EBDC /* PBXTargetDependency */,
+				568E31D25A328C386F97E0CB11F8A448 /* PBXTargetDependency */,
 			);
 			name = "Pods-tplsdk_Tests";
 			productName = Pods_tplsdk_Tests;
-			productReference = 77A181CE4B3789B8DAC97143AF62B19A /* Pods-tplsdk_Tests */;
+			productReference = 77A181CE4B3789B8DAC97143AF62B19A /* Pods_tplsdk_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD352FE2B8B8BD956292632788C5E443 /* Pods-tplsdk_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B644142C03750C58B54AC330EA4CED97 /* Build configuration list for PBXNativeTarget "Pods-tplsdk_Example" */;
+			buildConfigurationList = 047D2BABF35DF3F23674CB509A63AA4E /* Build configuration list for PBXNativeTarget "Pods-tplsdk_Example" */;
 			buildPhases = (
-				04DC4D5DE8D6571625B18D5FD501AA93 /* Headers */,
-				E02C245E8C20FC1808EEA5F7C7F416CE /* Sources */,
-				92F8CA7EEF3B91C75C211F2C9BFAAD39 /* Frameworks */,
-				90159059A9266A749CFEDA357615C23B /* Resources */,
+				F7D5141689B95B4DF69A20370C2A86F0 /* Headers */,
+				D6F20D7A07D1B228BF1943A930584431 /* Sources */,
+				CA326D479650C236A0D7A6357CBAFB9F /* Frameworks */,
+				41AF29BFCEFC0454020BE465F4102608 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CA6BC643CF3123BFEBC226E78F487FAC /* PBXTargetDependency */,
+				A84F54DA68BF6F5608DB1D415960E69D /* PBXTargetDependency */,
+				BF494CEAFD3C7BB4156E1DF5D135EBC3 /* PBXTargetDependency */,
+				5FD548FE9A824B68CDBF26F263901700 /* PBXTargetDependency */,
+				97FEDA37BA575CAD2640044162BF545D /* PBXTargetDependency */,
 			);
 			name = "Pods-tplsdk_Example";
 			productName = Pods_tplsdk_Example;
-			productReference = 6522C1C96882F176708652376C796F1B /* Pods-tplsdk_Example */;
+			productReference = 6522C1C96882F176708652376C796F1B /* Pods_tplsdk_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F61439FF308AE1B69D184EA6AFE851D7 /* CodableWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7259A0AF9C276B66B7CCEC0D3B6D5F38 /* Build configuration list for PBXNativeTarget "CodableWrapper" */;
+			buildPhases = (
+				D001D030958E88187F25B03F704B1553 /* Headers */,
+				AF53B07BF9F136895A7DC635EC3B9320 /* Sources */,
+				DB71A33105D4239854444C7225A95E63 /* Frameworks */,
+				7F1B2DFAC93C1A513AE3EED7139457F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodableWrapper;
+			productName = CodableWrapper;
+			productReference = 28B8D8E8CC8371478A59F9DD7775857F /* CodableWrapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,19 +807,35 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			productRefGroup = 1FB1353EE2FA81523ADA0FCCDEC579F1 /* Products */;
+			productRefGroup = 0D144C3F463A6567C090DB5D047F2E06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				F61439FF308AE1B69D184EA6AFE851D7 /* CodableWrapper */,
 				AD352FE2B8B8BD956292632788C5E443 /* Pods-tplsdk_Example */,
 				909EB94C653F1B085506D0C6409E89FF /* Pods-tplsdk_Tests */,
+				82E3F40E541B2E9B1481E881BFD83BB2 /* RaLog */,
 				86B895DBEF0776E6A3C2CB9D6C8C64AF /* tplsdk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AF29BFCEFC0454020BE465F4102608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56921CA094D09DE4A8B1D15180929FA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,14 +843,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90159059A9266A749CFEDA357615C23B /* Resources */ = {
+		7F1B2DFAC93C1A513AE3EED7139457F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF6BD0F3678F5B0A7597D58D9E7BC967 /* Resources */ = {
+		BC55A387FE550E12A03D8A15CDDA7B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0CE87B1AF5F0F5649A5EDAE16CEBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,45 +875,182 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F0541DD67AD0DFC838453544A455729 /* Sources */ = {
+		5C7D71864CBC02A243057F5269082246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA8678E6125C1C3916795A18C179BE8C /* ReplaceMe.swift in Sources */,
-				29B1D081269566AAF8E2824A2A5EB0E5 /* TestSwift.swift in Sources */,
-				FF891D6DA4783AC40A80D8E0F94DDAEE /* tplsdk-dummy.m in Sources */,
+				BA76D81906BB17551544714333F09F2A /* Built-in.swift in Sources */,
+				02D25D4485EBD27D1B7AF8DA52CEF838 /* Filterable.swift in Sources */,
+				043BDD301F90032D73D70783657CE1A8 /* Log.swift in Sources */,
+				A8A261B1A451C77FBF2E798486D5C811 /* LogModelProtocol.swift in Sources */,
+				0D73FCA30D16F39B2E059FDF95B4E39E /* Printable.swift in Sources */,
+				CE19A2084188EC7C75AE362E37B9F394 /* RaLog-dummy.m in Sources */,
+				1B4CE7366513FC6842CF5034C79E335E /* RaLogCompatible.swift in Sources */,
+				CF914B00777C8F0E8047C5F390942079 /* Storable.swift in Sources */,
+				8C575C2CDAAE359A50A7C58E45D26DED /* WebView+RaLog.swift in Sources */,
+				DECE4C7014B1F43CA7809550B8318814 /* Wrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E02C245E8C20FC1808EEA5F7C7F416CE /* Sources */ = {
+		9B3708DF8B8AA7B2054D8FBA5CF38F29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C3543B6F49CBCD483CD3DBF51494F25 /* Pods-tplsdk_Example-dummy.m in Sources */,
+				3076C25DD185794044664D3F0A4D56C0 /* BlueDevice.swift in Sources */,
+				723F13866CA9B1AA550A685D4338703D /* BlueToothConfig.swift in Sources */,
+				815D4A06B3DCCA014807E71F5EB4FE0C /* BlueToothKit.swift in Sources */,
+				1FA930671B014615F314357279744D34 /* BlueToothTool.swift in Sources */,
+				A6CE206FA23FA953772792BC1DC16540 /* CodeCommand.swift in Sources */,
+				F6FB88D51C840D2BCD663F79A8B48FC2 /* CodeCommandStatus.swift in Sources */,
+				FC5F7991BA591FBFA65081E91FC30791 /* ConstValue.swift in Sources */,
+				A4FA42ED09B05CD3248C747FBF7B96DB /* DeviceInfo.swift in Sources */,
+				B1CE54CA2D56011419BEABE45A4825F3 /* FBlueReadMe.md in Sources */,
+				03A99B00B5744E01DD8B373042392497 /* libFEBluetoothSDK.a in Sources */,
+				C8645F22595694EC7741807455E366F6 /* SocketClient.swift in Sources */,
+				DBA46EB9A619B63819F160CE6603EE7E /* Timer+JExtension.swift in Sources */,
+				D06E53624FBBF73A0B973457340907F2 /* TPBlueToothModel.swift in Sources */,
+				7D8B940484D36A4568ADDE931CC803C9 /* tplsdk-dummy.m in Sources */,
+				A9D8CF8651F1F02B6141907E4A6D4377 /* TPPeripheral.swift in Sources */,
+				2FABE5B525C807C996FA23523B2DF3D8 /* WIFIDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF53B07BF9F136895A7DC635EC3B9320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A85CE72166F88672C5F1F96CF44C87E /* AnyCodingKey.swift in Sources */,
+				87BE71716A5F8180C3B06275E222B570 /* AnyDecodable.swift in Sources */,
+				4A9BA55C8F422240B4A2B286C5DA34F3 /* AnyTransfromTypeTunk.swift in Sources */,
+				0B00DCF124FDCDFBE210F7F024358B75 /* BuiltInBridgeType.swift in Sources */,
+				E54506AAF8E9B8A08978171511232344 /* CodableExtension.swift in Sources */,
+				FE6068FF3B9646B2FBB8007B7BA83663 /* CodablePrepartion.swift in Sources */,
+				41C364DEDEC01D9239D92CB806E781EC /* CodableWrapper-dummy.m in Sources */,
+				8B3A246AC0E21BE59FA7EC4A59D6A65A /* Codec.swift in Sources */,
+				2F602FDD9A910050BC6097B61160044A /* CodecConstruct.swift in Sources */,
+				70AB2CB4530D0B8F236FAFF70070E34D /* CodecInit.swift in Sources */,
+				7AA6CBF40D0F142803FC6C61ACC814AD /* CodecInitLiteral.swift in Sources */,
+				85FB523482B2F7A671F6177FAFA5237D /* CodecOptionalProtocol.swift in Sources */,
+				012584690D5DC898BA798F875538C9E3 /* DateTransform.swift in Sources */,
+				BB22DAA0FA28640570F459265A554877 /* DecodeFinalize.swift in Sources */,
+				B7B2B86913491D86A7229A59C4C9AF2C /* EncodeFinalize.swift in Sources */,
+				D979C62A1D6D6D716C7E2FDB4347D3B9 /* InjectionKeeper.swift in Sources */,
+				FEF1771A539AC89458854F3F3AB096D3 /* KeyedCodingContainer.swift in Sources */,
+				A3BC7619268D4A48B510563622A6AB7E /* KeyedContainerConvert.swift in Sources */,
+				2D5B3280047572D08A326717E13376F0 /* KeyedContainerMap.swift in Sources */,
+				03C600AD8E98E9A806B9C06815DA59F8 /* KeyedContainerModifier.swift in Sources */,
+				A9FDB38DAC407680D28B6C55F10286B0 /* SnakeCamelConvert.swift in Sources */,
+				959B3DBBA3E6292C27F42FA7EE37B902 /* TransformOf.swift in Sources */,
+				45315E9A275782F2B96A8981C8E3D7A5 /* TransformType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */,
+				4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */,
+				37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F20D7A07D1B228BF1943A930584431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73AF13ADE7ABB805DC6F2C1DA34024C /* Pods-tplsdk_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		99DEB06F573416F97DC2893AE701EBDC /* PBXTargetDependency */ = {
+		568E31D25A328C386F97E0CB11F8A448 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-tplsdk_Example";
 			target = AD352FE2B8B8BD956292632788C5E443 /* Pods-tplsdk_Example */;
-			targetProxy = F1A3BAD53F4DAE512B11973FC671A074 /* PBXContainerItemProxy */;
+			targetProxy = CF8F6FF77679AC9D7A43DC4BEEA6DE1D /* PBXContainerItemProxy */;
 		};
-		CA6BC643CF3123BFEBC226E78F487FAC /* PBXTargetDependency */ = {
+		5FD548FE9A824B68CDBF26F263901700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RaLog;
+			target = 82E3F40E541B2E9B1481E881BFD83BB2 /* RaLog */;
+			targetProxy = ACC18909E93CB548CE0E5B78722B908F /* PBXContainerItemProxy */;
+		};
+		7BAC85444D8E4EAB6E8658CDEFD589A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = FD45D796A3F03D108F5A60FA956C846B /* PBXContainerItemProxy */;
+		};
+		8F2C2BF65C7FFE8922837CC74C9E4F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CodableWrapper;
+			target = F61439FF308AE1B69D184EA6AFE851D7 /* CodableWrapper */;
+			targetProxy = B5D175F08E95E19D939DFFAC797FB25D /* PBXContainerItemProxy */;
+		};
+		97FEDA37BA575CAD2640044162BF545D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = tplsdk;
 			target = 86B895DBEF0776E6A3C2CB9D6C8C64AF /* tplsdk */;
-			targetProxy = A5C3013EFE6962606CCA1E14DD33FAD2 /* PBXContainerItemProxy */;
+			targetProxy = AE027B75D8731B1E4544674EB79CA0E1 /* PBXContainerItemProxy */;
+		};
+		A84F54DA68BF6F5608DB1D415960E69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 48921A6283AB497AB4AEF12AFF2E3250 /* PBXContainerItemProxy */;
+		};
+		B85824C1B89E8AB533C9CE52437F4E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RaLog;
+			target = 82E3F40E541B2E9B1481E881BFD83BB2 /* RaLog */;
+			targetProxy = 00CE07893086F5E0B62B19A3DBED8381 /* PBXContainerItemProxy */;
+		};
+		BF494CEAFD3C7BB4156E1DF5D135EBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CodableWrapper;
+			target = F61439FF308AE1B69D184EA6AFE851D7 /* CodableWrapper */;
+			targetProxy = 44D38719244F124ADEFBB4B199CCED9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2BBA7426516E56FFC087B6D15B8FE0D3 /* Debug */ = {
+		0247D858711773713777F25A7771B350 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF07639236557366DA1A1AC163993AD1 /* tplsdk.debug.xcconfig */;
+			baseConfigurationReference = 461B80F6B411BF22FF17CAB9CB719E43 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26D07960682DE2DDAD00B92EC46084C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB22CBFFB25AEDCE46B54699139422A /* tplsdk.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -427,7 +1064,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/tplsdk/tplsdk-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/tplsdk/tplsdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/tplsdk/tplsdk.modulemap";
 				PRODUCT_MODULE_NAME = tplsdk;
@@ -442,7 +1079,38 @@
 			};
 			name = Debug;
 		};
-		4EA7873B86C7D1EEED51CAC2CFC0B7D5 /* Release */ = {
+		2CCDACB3574747BD5318864FC89C2234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE473FC634C83B9A08D7B213A38DBB7 /* CodableWrapper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CodableWrapper/CodableWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CodableWrapper/CodableWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CodableWrapper/CodableWrapper.modulemap";
+				PRODUCT_MODULE_NAME = CodableWrapper;
+				PRODUCT_NAME = CodableWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55A49F7F97E84F10822C0346A2C9EB95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC383B9B3A48DF1F3FA8CE0864CA9604 /* Pods-tplsdk_Example.release.xcconfig */;
 			buildSettings = {
@@ -458,7 +1126,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-tplsdk_Example/Pods-tplsdk_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-tplsdk_Example/Pods-tplsdk_Example.modulemap";
@@ -475,6 +1143,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7EB696D49BFDA62EBF045C0A10971288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351FE228A00BA071D45612A2A9F14D96 /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -531,14 +1229,13 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8F32E36D5AF4AA2D97DC2DF44DDA9867 /* Debug */ = {
+		8AA4B01392ECBEBA9D335CE50162B081 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FB34500E5FD683A7F46C0E94DA277C6 /* Pods-tplsdk_Example.debug.xcconfig */;
 			buildSettings = {
@@ -554,7 +1251,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-tplsdk_Example/Pods-tplsdk_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-tplsdk_Example/Pods-tplsdk_Example.modulemap";
@@ -570,6 +1267,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8CE8572B0F0B168983B8F09C29C6C4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC6F3583BCC64593F25447993D0CCD5 /* RaLog.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RaLog/RaLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RaLog/RaLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RaLog/RaLog.modulemap";
+				PRODUCT_MODULE_NAME = RaLog;
+				PRODUCT_NAME = RaLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E48B1CF79A063F2AEA459858EC9B4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF3EA6104DA91C3A0BD9966C1A53D08 /* RaLog.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RaLog/RaLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RaLog/RaLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RaLog/RaLog.modulemap";
+				PRODUCT_MODULE_NAME = RaLog;
+				PRODUCT_NAME = RaLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		9AE0C1D46BFD2CF325EF0D256BD6CB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -587,7 +1347,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-tplsdk_Tests/Pods-tplsdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-tplsdk_Tests/Pods-tplsdk_Tests.modulemap";
@@ -598,6 +1358,68 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB033E47DEAED47823FF0407477C681A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879507B50513A57932FF1178F7CEED97 /* tplsdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/tplsdk/tplsdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/tplsdk/tplsdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/tplsdk/tplsdk.modulemap";
+				PRODUCT_MODULE_NAME = tplsdk;
+				PRODUCT_NAME = tplsdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6D79F09475223B4D6F089E2197066E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E8910C777E3839620B5004B46BD6A0 /* CodableWrapper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CodableWrapper/CodableWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CodableWrapper/CodableWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CodableWrapper/CodableWrapper.modulemap";
+				PRODUCT_MODULE_NAME = CodableWrapper;
+				PRODUCT_NAME = CodableWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -670,38 +1492,6 @@
 			};
 			name = Debug;
 		};
-		EBCDAD7C727F20E1BEFD9280B1F74763 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7B716ED875D4D4800A5C4CD73E08BA3 /* tplsdk.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/tplsdk/tplsdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/tplsdk/tplsdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/tplsdk/tplsdk.modulemap";
-				PRODUCT_MODULE_NAME = tplsdk;
-				PRODUCT_NAME = tplsdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FB0A3C975146E8BD7AB83810422E962E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36F8720E03BAB0B7FDD12B19D61844B4 /* Pods-tplsdk_Tests.release.xcconfig */;
@@ -718,7 +1508,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-tplsdk_Tests/Pods-tplsdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-tplsdk_Tests/Pods-tplsdk_Tests.modulemap";
@@ -739,6 +1529,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		047D2BABF35DF3F23674CB509A63AA4E /* Build configuration list for PBXNativeTarget "Pods-tplsdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA4B01392ECBEBA9D335CE50162B081 /* Debug */,
+				55A49F7F97E84F10822C0346A2C9EB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -748,11 +1547,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56ABE204B188B9778B9F7EBA9ADA6ECB /* Build configuration list for PBXNativeTarget "tplsdk" */ = {
+		6DD7673BFCB5C182A507672BDD386F9C /* Build configuration list for PBXNativeTarget "RaLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BBA7426516E56FFC087B6D15B8FE0D3 /* Debug */,
-				EBCDAD7C727F20E1BEFD9280B1F74763 /* Release */,
+				8CE8572B0F0B168983B8F09C29C6C4BF /* Debug */,
+				8E48B1CF79A063F2AEA459858EC9B4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7259A0AF9C276B66B7CCEC0D3B6D5F38 /* Build configuration list for PBXNativeTarget "CodableWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D79F09475223B4D6F089E2197066E6 /* Debug */,
+				2CCDACB3574747BD5318864FC89C2234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -766,11 +1574,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B644142C03750C58B54AC330EA4CED97 /* Build configuration list for PBXNativeTarget "Pods-tplsdk_Example" */ = {
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F32E36D5AF4AA2D97DC2DF44DDA9867 /* Debug */,
-				4EA7873B86C7D1EEED51CAC2CFC0B7D5 /* Release */,
+				7EB696D49BFDA62EBF045C0A10971288 /* Debug */,
+				0247D858711773713777F25A7771B350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1813563E7F3887955A74D8B87462E2 /* Build configuration list for PBXNativeTarget "tplsdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D07960682DE2DDAD00B92EC46084C4 /* Debug */,
+				BB033E47DEAED47823FF0407477C681A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,7 +16,20 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "tplsdk/Classes/**/*"
+  "source_files": "tplsdk/Classes/**/*",
+  "vendored_libraries": "tplsdk/Classes/FYT/libFEBluetoothSDK.a",
+  "public_header_files": "tplsdk/Classes/FYT/*.h",
+  "dependencies": {
+    "RaLog": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ],
+    "CodableWrapper": [
+
+    ]
+  }
 }

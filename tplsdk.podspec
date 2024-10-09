@@ -28,9 +28,17 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/KavinKily/tplsdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'tplsdk/Classes/**/*'
+
+  s.vendored_libraries = 'tplsdk/Classes/FYT/libFEBluetoothSDK.a'
+  s.public_header_files = 'tplsdk/Classes/FYT/*.h'
+  
+
+  s.dependency 'RaLog'
+  s.dependency 'CocoaAsyncSocket'
+  s.dependency 'CodableWrapper'
   
   # s.resource_bundles = {
   #   'tplsdk' => ['tplsdk/Assets/*.png']

@@ -1,15 +1,30 @@
 PODS:
-  - tplsdk (0.1.0)
+  - CocoaAsyncSocket (7.6.5)
+  - CodableWrapper (0.3.2)
+  - RaLog (1.6.1)
+  - tplsdk (0.1.0):
+    - CocoaAsyncSocket
+    - CodableWrapper
+    - RaLog
 
 DEPENDENCIES:
   - tplsdk (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - CodableWrapper
+    - RaLog
 
 EXTERNAL SOURCES:
   tplsdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  tplsdk: 7e7b94865a846dc527f37cee374ae88c349409cf
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CodableWrapper: fbb76b3bea6519564b456bb295317df35d5100c5
+  RaLog: d110618b41b1ba63490f6d60481f512b0603e52c
+  tplsdk: 27fc78ae21e4241fe449b0ed31787b722b8ce6e3
 
 PODFILE CHECKSUM: 420d90e5589a54f68120eee3d38df352e83d0d64
 

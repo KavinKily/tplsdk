@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        TestSwift().test111()
+//        TestSwift().test111()
+        BlueToothKit.share.stopScan()
+
     }
 
     override func didReceiveMemoryWarning() {
